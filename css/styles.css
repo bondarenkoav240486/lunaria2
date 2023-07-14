@@ -63,7 +63,7 @@ body
 .transitionEachRowText
 {
 	position: absolute;
-	transition: all 1s ease-in 0s ;
+	transition: all 2s ease-in 0s ;
 	/*	-webkit-transition: all 1s ease-in 0s ;
 	-moz-transition: all 1s ease-in 0s ;
 	-ms-transition: all 1s ease-in 0s ;
