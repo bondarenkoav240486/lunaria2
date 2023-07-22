@@ -147,8 +147,8 @@ function trackingСoordinatsAndLaunchinPopUpText() {
         {
             // transitionEachRowText.parentElement.style.position = 'relative';
             // transitionEachRowText.parentElement.style.overflow = 'hidden';
-            // transitionEachRowText.style.position = 'absolute';
-            // transitionEachRowText.style.transition = 'all 1s ease-in 0s';
+            transitionEachRowText.style.position = 'absolute';
+            transitionEachRowText.style.transition = 'all 1s ease-in 0s';
             transitionEachRowText.style.top 
                 = 
                 transitionEachRowText.getBoundingClientRect().height
@@ -195,7 +195,7 @@ function trackingСoordinatsAndLaunchinOverlayText() {
             OverlayTransition.style.background = '#000000';
             OverlayTransition.style.position = 'absolute';
             OverlayTransition.style.left = '-50px';
-            OverlayTransition.style.transition = 'top 5s ease-out 0s';
+            OverlayTransition.style.transition = 'top 3s ease-out 0s';
             // all 1.5s ease-out 0s;
             OverlayTransition.style.boxShadow = 
             ' 0 -25px 15px rgba(0,0,0)' ;
